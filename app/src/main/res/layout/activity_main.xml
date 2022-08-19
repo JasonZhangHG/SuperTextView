@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="文字中出现加粗，不同颜色的字体" />
+        android:text="Html TextView" />
     
     <Button
         android:id="@+id/btn_03"

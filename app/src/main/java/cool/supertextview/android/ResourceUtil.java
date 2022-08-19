@@ -20,6 +20,10 @@ public class ResourceUtil {
         return CCApplication.getInstance().getString(strResId);
     }
 
+    public static String getString(int strResId, Object... objects) {
+        return String.format(getString(strResId), objects);
+    }
+
     @Nullable
     public static Drawable getDrawable(int drawableResId) {
         if (drawableResId == 0) {
