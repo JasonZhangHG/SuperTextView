@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SuperTextView</string>
+    <string name="terms_of_service_desc">《服务条款》</string>
+    <string name="privacy_policy_desc">《隐私政策》</string>
+    <string name="login_des_privacy_desc">请您同意我们的 %1$s 和 %2$s</string>
 </resources>
