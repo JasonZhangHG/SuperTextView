@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    
+    
+    <style name="VipLevelTag">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">14dp</item>
+    </style>
 </resources>

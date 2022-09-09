@@ -17,6 +17,6 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:text="Plese read our" />
+        tools:text="Please read our" />
 
 </RelativeLayout>
