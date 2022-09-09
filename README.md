@@ -1,6 +1,7 @@
 # SuperTextView
 Android SuperTextView
 总结安卓中常用的TextView的样式（SuperTextView）
+
 https://user-images.githubusercontent.com/22411415/189327271-c12859bc-c54b-40dc-a6be-6e45d102bc61.mp4
 
 引言：TextView在平时的开发中一般是显示文案，但是在实际开发中文字经常要显示一些特殊的样式，为了满足不同场景下的需求，特此总结常用的TextView,命名为：SuperTextView
