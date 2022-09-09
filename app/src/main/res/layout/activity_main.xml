@@ -35,5 +35,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="文字中带标签，类似抖音直播间消息流" />
+    
+    <Button
+        android:id="@+id/btn_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="文字中带多个标签" />
 
 </LinearLayout>

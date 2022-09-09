@@ -39,5 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TagTextViewActivity.class));
             }
         });
+
+        findViewById(R.id.btn_05).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TagListTextViewActivity.class));
+            }
+        });
     }
 }
