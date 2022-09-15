@@ -35,7 +35,27 @@ public class TagAdapter extends BaseRVAdapter<String, TagAdapter.Holder> {
 
         @Override
         public void bindView(String icon, int position) {
-            mTagView.setBackground(ResourceUtil.getDrawable(mContext.getResources().getIdentifier(icon, "drawable", "cool.supertextview.android")));
+            int drawableResId = R.drawable.e_1;
+            switch (icon) {
+                case "e_1":
+                    drawableResId = R.drawable.e_1;
+                    break;
+                case "e_2":
+                    drawableResId = R.drawable.e_2;
+                    break;
+                case "e_3":
+                    drawableResId = R.drawable.e_3;
+                    break;
+                case "e_4":
+                    drawableResId = R.drawable.e_4;
+                    break;
+                case "e_5":
+                    drawableResId = R.drawable.e_5;
+                    break;
+                default:
+                    break;
+            }
+            mTagView.setImageDrawable(ResourceUtil.getDrawable(drawableResId));
         }
     }
 }

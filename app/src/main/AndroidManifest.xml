@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SuperTextView">
         <activity
+            android:name=".FlexboxLayoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".WebViewActivity"
             android:exported="false" />
         <activity
@@ -24,21 +27,18 @@
         <activity
             android:name=".PrivacyPolicyTextActivity"
             android:exported="false" />
-        
         <activity
             android:name=".ImageTextViewActivity"
             android:exported="false" />
-        
         <activity
             android:name=".TagListTextViewActivity"
             android:exported="false" />
-        
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                
+    
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

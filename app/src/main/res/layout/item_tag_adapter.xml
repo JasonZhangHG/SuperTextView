@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/iv_vip_tag"
         style="@style/VipLevelTag"
-        android:layout_marginEnd="4dp"
+        android:layout_margin="2dp"
         android:src="@drawable/e_1" />
 
 </LinearLayout>

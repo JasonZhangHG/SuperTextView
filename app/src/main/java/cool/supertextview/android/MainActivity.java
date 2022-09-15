@@ -46,5 +46,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TagListTextViewActivity.class));
             }
         });
+
+        findViewById(R.id.btn_06).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, FlexboxLayoutActivity.class));
+            }
+        });
     }
 }
