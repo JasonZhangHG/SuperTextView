@@ -24,7 +24,7 @@ public class FlexboxLayoutActivity extends AppCompatActivity {
 
         FlexboxLayoutManager layoutManager = new FlexboxLayoutManager(this);
         layoutManager.setFlexDirection(FlexDirection.ROW);
-        layoutManager.setJustifyContent(JustifyContent.FLEX_END);
+        layoutManager.setJustifyContent(JustifyContent.FLEX_START);
         mTagListView.setLayoutManager(layoutManager);
 
         TagAdapter tagAdapter = new TagAdapter();
@@ -90,6 +90,11 @@ public class FlexboxLayoutActivity extends AppCompatActivity {
         iconList.add("e_3");
         iconList.add("e_4");
         iconList.add("e_5");
+
+        iconList.add("e_1");
+        iconList.add("e_2");
+        iconList.add("e_3");
+        iconList.add("e_4");
 
         tagAdapter.setDataSilently(iconList);
 
